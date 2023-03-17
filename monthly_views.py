@@ -9,7 +9,7 @@ viewed_content = pd.read_excel('../Viewed Content/ViewedContent_Jun22.xlsx')
 viewed_content.head()
 
 [3]
-#dropping unnecessary columns
+#dropping unnecessary columns, just like that
 
 viewed_content.drop(['Id', 'Url', 'Last Viewed Date (Coordinated Universal Time)', 'Group Id', 'Application Id'], inplace=True, axis=1)
 
